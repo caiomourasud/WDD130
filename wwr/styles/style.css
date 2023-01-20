@@ -1,0 +1,33 @@
+a {
+    text-decoration: none !important;
+}
+
+.logo {
+    height: 100px;
+}
+
+#hero-img {
+    height: 320px;
+    width: 580px;
+    object-fit: cover;
+}
+
+.icon {
+    height: 50px;
+}
+
+.card-img {
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+}
+
+.mountains {
+    height: 320px;
+    width: 460px;
+    object-fit: cover;
+}
+
+.social-media-icon {
+    height: 24px;
+}
