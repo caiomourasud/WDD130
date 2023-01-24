@@ -1,0 +1,35 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+}
+
+#title {
+    color: white;
+}
+
+#title:hover {
+    color: black;
+}
+
+#list {
+    text-align: start
+}
+
+.white-text {
+    color: white;
+}
+
+.president-img {
+    height: 320px;
+    text-align: left;
+}
+
+#quote {
+    font-size: 30px;
+    text-align: center;
+    max-width: 260px;
+    margin: auto;
+}
+
