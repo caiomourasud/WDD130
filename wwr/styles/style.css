@@ -34,15 +34,23 @@ a {
 
 #background {
     height: 725px;
-    background-color:var(--accent1-color);
+    background-color: var(--accent1-color);
 }
 
 body {
     background-color: #fcfbfb; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--paragraph-font);
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     text-align: start;
 }
 
@@ -50,12 +58,19 @@ nav a {
     color: var(--accent2-color);
     text-align: center;
     text-decoration: none !important;
+    padding: 35px;
 }
 
 nav a:hover {
     color: var(--accent1-color);
     text-decoration: none !important;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
    
 
@@ -71,29 +86,36 @@ main {
     background-color: #fcfbfb; 
 }
 
+
 section {
     text-align: center;
     background-color: #fcfbfb; 
 }
 
-.book {
+main section img {
+    box-sizing: border-box;
+}
+
+.book, .join{
     text-decoration: none !important;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover {
+.book:hover, .join:hover{
     text-decoration: underline !important;
-}
-
-.join {
-    text-decoration: none !important;
-}
-
-.join:hover {
-    text-decoration: underline !important;
-}   
+} 
 
 .logo {
     height: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #hero-img {
@@ -105,12 +127,18 @@ section {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .card-img {
     height: 320px;
     width: 320px;
     object-fit: cover;
+    border: 10px solid #d9c2a3;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .mountains {
@@ -126,16 +154,21 @@ section {
 .msg {
     color: var(--accent2-color);
     background-color:var(--primary-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg a {
-    color: var(--accent2-color);
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     text-align: start;
     color: var(--accent2-color);
     background-color:var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p a {
@@ -148,3 +181,7 @@ footer p a:hover {
     color: var(--accent2-color);
     text-decoration: underline !important;
 } 
+
+footer .social img {
+    padding-top: 15px;
+}
